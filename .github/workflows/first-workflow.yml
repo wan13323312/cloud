@@ -35,4 +35,4 @@ jobs:
     steps:
       - name: Deploy script
         # ${{ github.ref_name }} 对应 $CI_COMMIT_BRANCH
-        run: echo "This job deploys something from the ${{ github.ref_name }} branch.
+        run: echo "This job deploys something from the ${{ github.ref_name }} branch."
